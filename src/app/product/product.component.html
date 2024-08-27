@@ -1,0 +1,22 @@
+<div class="row">
+
+<div class="col-sm-3 p-2" *ngFor="let item of products">
+  <mat-card class="example-card" appearance="outlined">
+    <mat-card-header>
+      <mat-card-title>{{item.name}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <h2>{{item.title}}</h2>
+      <p>{{item.description}}</p>
+    </mat-card-content>
+    <mat-card-footer class="example-card-footer">
+      <mat-chip-set aria-label="Chihuahua traits">
+        <mat-chip>{{item.price}}</mat-chip>
+        <mat-chip>{{item.gst}}</mat-chip>
+        
+      </mat-chip-set>
+    </mat-card-footer>
+  </mat-card>
+</div>
+  
+</div>

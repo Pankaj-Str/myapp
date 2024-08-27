@@ -1,0 +1,9 @@
+.example-card {
+    max-width: 400px;
+    background-color: antiquewhite;
+  }
+  
+  .example-card-footer {
+    padding: 16px;
+    background-color: black;
+  }
